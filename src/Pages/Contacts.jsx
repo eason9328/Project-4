@@ -68,7 +68,7 @@ export default function Contacts() {
                 </div>
               <div className="ins">
                   <div className="container">
-                      <p>@toystore</p>
+                      <p>@toystore!!</p>
                       <div className="inner">
                           <p>We're on Instagram!</p>
                           <div>
