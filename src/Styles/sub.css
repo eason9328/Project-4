@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.sub {
+    width: 100%;
+    height: 500px;
+    display: flex;               
+    align-items: center;         
+    justify-content: center;
+}
+.sub .inner {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #e7e7e7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.sub .inner .left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.sub .inner .left div {
+    background-color: #a2bc20;
+    border-radius: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub .inner img {
+    width: 35px;
+    height: 35px;
+}
+.sub .inner .left p {
+    font-size: 36px;
+    text-wrap: wrap;
+}
+.sub .inner .left span {
+    color:#a2bc20;
+}
+.sub .inner .right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  height: 70px;
+}
+.sub .inner .right input {
+    height: 100%;
+    border-radius: 25px;
+    border: 1px solid #d0d0d0;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 500px;
+}
+.sub .inner .right button {
+    background-color: #a2bc20;
+    color: white;
+    border-radius: 25px;
+    height: 100%;
+    width: 170px;
+    font-size: 20px;
+    border: none;
+}
+        

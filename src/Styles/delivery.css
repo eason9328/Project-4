@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.del .main {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-top: 50px;
+}
+.del .main span {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #e7e7e7;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #9CA3AF;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+.del .main span img {
+    width: 25px;
+    height: 25px;
+}
+.del .main .content {
+    width: 100%;
+    padding: 200px 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 25px;
+}
+.del .main .content .left {
+    width: 60%;
+}
+.del .main .content .left h1 {
+    margin-bottom: 10px;
+}
+.del .main .content .left .head {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.del .main .content .left p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.del .main .content .left ul {
+    padding-left: 40px;
+}
+.del .main .content .left li {
+    font-size: 20px;
+    list-style: disc !important; 
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.del .main .content .left li:last-child {
+    margin-bottom: 30px;
+}
+.del .main .content .right {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-top: 50px;
+}
+.del .main .content .right p {
+    font-size: 20px;
+    font-weight: bold;
+    width: 220px;
+    text-align: center;
+    line-height: 30px;
+}
+.del .main .content .right span {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #a2bc20;
+    border-radius: 25px;
+    width: 150px;
+}
+.del .sub {
+    width: 100%;
+    height: 500px;
+    display: flex;               
+    align-items: center;         
+    justify-content: center;
+     background-color: #f8f8f8;
+}
+
+.sub .inner {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #e7e7e7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: white;
+}
+.inner .left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.inner .left div {
+    background-color: #a2bc20;
+    border-radius: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner img {
+    width: 35px;
+    height: 35px;
+}
+.inner .left p {
+    font-size: 36px;
+    text-wrap: wrap;
+}
+.inner .left span {
+    color:#a2bc20;
+}
+.inner .right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  height: 70px;
+}
+.inner .right input {
+    height: 100%;
+    border-radius: 25px;
+    border: 1px solid #d0d0d0;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 500px;
+}
+.del .inner .right button {
+    background-color: #a2bc20;
+    color: white;
+    border-radius: 25px;
+    height: 100%;
+    width: 170px;
+    font-size: 20px;
+    border: none;
+}
+.del .ins {
+    width: 100%;
+    height: 600px;
+    background-color: #f8f8f8;
+}
+.ins .container p {
+    color: #a2bc20;
+    margin: 0 auto;
+    width: fit-content;
+}
+.ins .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    height: 400px;
+}
+.ins .inner p {
+    font-size: 36px;
+    color: black;
+}
+.ins .inner div {
+    display: flex;
+    gap: 30px;
+}
+.ins .inner img {
+   flex: 1;
+   height: 220px;
+   border-radius: 25px;
+}
+.ins .inner img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.ins .inner span {
+     background-color: #a2bc20;
+    color: white;
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
